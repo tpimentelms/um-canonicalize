@@ -14,6 +14,7 @@ categories:
     - ACCMP
     - SEMEL
     - ACTY
+    - DIM
   Animacy:
     - ANIM
     - INAN
@@ -67,6 +68,64 @@ categories:
     - BE2P
     - BE3S
     - BE3P
+    - NO1S+BE1S
+    - NO1S+BE1P
+    - NO1S+BE2S
+    - NO1S+BE2P
+    - NO1S+BE3S
+    - NO1S+BE3P
+    - NO1S+AB2S
+    - NO1S+AB2P
+    - NO1S+AB3S
+    - NO1S+AB3P
+    - NO1P+BE1S
+    - NO1P+BE1P
+    - NO1P+BE2S
+    - NO1P+BE2P
+    - NO1P+BE3S
+    - NO1P+BE3P
+    - NO1P+AB2S
+    - NO1P+AB2P
+    - NO1P+AB3S
+    - NO1P+AB3P
+    - NO2S+BE1S
+    - NO2S+BE1P
+    - NO2S+BE3S
+    - NO2S+BE3P
+    - NO2S+AB1S
+    - NO2S+AB1P
+    - NO2S+AB3S
+    - NO2S+AB3P
+    - NO2P+BE1S
+    - NO2P+BE1P
+    - NO2P+BE3S
+    - NO2P+BE3P
+    - NO2P+AB1S
+    - NO2P+AB1P
+    - NO2P+AB2S
+    - NO2P+AB2P
+    - NO2P+AB3S
+    - NO2P+AB3P
+    - NO3S+BE1S
+    - NO3S+BE1P
+    - NO3S+BE2S
+    - NO3S+BE2P
+    - NO3S+BE3S
+    - NO3S+BE3P
+    - NO3S+AB1S
+    - NO3S+AB1P
+    - NO3S+AB2S
+    - NO3S+AB2P
+    - NO3S+AB3S
+    - NO3S+AB3P
+    - NO3P+AB1S
+    - NO3P+AB1P
+    - NO3P+AB2S
+    - NO3P+AB2P
+    - NO3P+AB3S
+    - NO3P+AB3P
+    - NO3P+BE3S
+    - NO3P+BE3P
   Aspect:
     - IPFV
     - PFV
@@ -80,12 +139,14 @@ categories:
     - HAB
     - HAB+PROG
     - HAB+PRF
+    - HAB+IPFV
   Case:
     - NOM
     - ACC
     - LOC
     - ERG
     - ABS
+    - ERG+ABS
     - ABS+GEN
     - NOMS
     - DAT
@@ -111,6 +172,7 @@ categories:
     - ON+ABL
     - VOC+GEN
     - NOM+ACC
+    - NOM+ABS
     - non{NOM}
     - DAT+GEN
     - EXCLV
@@ -145,6 +207,7 @@ categories:
     - ABL
     - APPRX
     - TERM
+    - COM+TERM
     - PROL
     - VERS
   Comparison:
